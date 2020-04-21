@@ -1,3 +1,5 @@
+'https://stackoverflow.com/questions/1026483/is-there-a-way-to-crack-the-password-on-an-excel-vba-project 
+'adresinden faydalanılmıştır.
 Option Explicit
 
 Private Const PAGE_EXECUTE_READWRITE = &H40
@@ -24,7 +26,7 @@ Dim Flag As Boolean
 
 Sub VBS_Sifre_Kaldir()
     If Hook Then
-        MsgBox "VBA Proje Sifresi Kaldýrýlmýþtýr!", vbInformation
+        MsgBox "VBA Proje Sifresi Kaldırıldı!", vbInformation
     End If
 End Sub
 
