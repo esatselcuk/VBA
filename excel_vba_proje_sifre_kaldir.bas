@@ -1,4 +1,3 @@
-Attribute VB_Name = "Module1"
 Option Explicit
 
 Private Const PAGE_EXECUTE_READWRITE = &H40
@@ -25,7 +24,7 @@ Dim Flag As Boolean
 
 Sub VBS_Sifre_Kaldir()
     If Hook Then
-        MsgBox "VBA Proje Sifresi Kaldýrýlmýþtýr!", vbInformation
+        MsgBox "VBA Proje Sifresi KaldÃ½rÃ½lmÃ½Ã¾tÃ½r!", vbInformation
     End If
 End Sub
 
